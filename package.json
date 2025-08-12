@@ -1,0 +1,23 @@
+{
+  "name": "file-monitor-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that monitors file changes and logs them like GitHub commits",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["discord", "bot", "file-monitoring", "github-like"],
+  "author": "Your Name",
+  "license": "MIT"
+}
